@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aidil — AI &amp; Software Engineering student at Singapore Institute of Technology, building machine learning systems that create real-world impact.">
+  <title>Aidil — AI &amp; Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav-inner container">
+      <a href="#hero" class="nav-logo">AJ</a>
+      <button class="nav-toggle" id="nav-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#repos">Repos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ─── HERO ─────────────────────────────────────────────── -->
+    <section id="hero">
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-content container">
+        <p class="hero-eyebrow">Singapore &nbsp;·&nbsp; AI &amp; Software Engineering</p>
+        <h1 class="hero-name">Aidil</h1>
+        <p class="hero-tagline">Building intelligent systems<br>that create real-world impact.</p>
+        <div class="hero-links">
+          <a href="mailto:2570457@sit.singaporetech.edu.sg" class="hero-link">
+            <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="16" height="12" rx="2"/>
+              <path d="M2 7l8 5 8-5"/>
+            </svg>
+            Email
+          </a>
+          <a href="https://github.com/maidilj" target="_blank" rel="noopener noreferrer" class="hero-link">
+            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 2C5.58 2 2 5.58 2 10c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0018 10c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/maidilj" target="_blank" rel="noopener noreferrer" class="hero-link">
+            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M16 2H4a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2zM7 15H5V8h2v7zm-1-8.27c-.66 0-1.2-.54-1.2-1.21 0-.67.54-1.21 1.2-1.21.66 0 1.2.54 1.2 1.21 0 .67-.54 1.21-1.2 1.21zM15 15h-2v-3.27c0-1.97-2-1.82-2 0V15H9V8h2v1.13C11.94 7.48 15 7.37 15 10.86V15z"/>
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <a href="#about" class="hero-scroll" aria-label="Scroll to About">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 5v14M5 12l7 7 7-7"/>
+        </svg>
+      </a>
+    </section>
+
+    <!-- ─── ABOUT ──────────────────────────────────────────────── -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">About</h2>
+        </header>
+        <div class="about-text">
+          <p>I'm a final-year Information and Communications Technology student at <strong>Singapore Institute of Technology</strong>, specialising in artificial intelligence. I work at the intersection of machine learning and software engineering — building models that find structure in messy real-world data and applications that put that structure to use.</p>
+          <p>My most technically demanding work has been in clinical AI: implementing deep learning architectures for clustering multivariate patient trajectories with missing values — the kind of incomplete, irregular data that real clinical databases actually contain. On the applied side, I've built full-stack web applications designed to connect people with social services. Both tracks share the same conviction: the best technical work reduces real friction for real people.</p>
+          <p>I'm actively looking for roles in AI/ML engineering, data science, or software engineering where I can keep learning from hard problems.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── SKILLS ────────────────────────────────────────────── -->
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Skills</h2>
+        </header>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3 class="skill-group-label">Languages</h3>
+            <ul class="skill-chips" role="list">
+              <li class="chip">Python</li>
+              <li class="chip">JavaScript</li>
+              <li class="chip">HTML &amp; CSS</li>
+              <li class="chip">SQL</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-label">ML &amp; Data</h3>
+            <ul class="skill-chips" role="list">
+              <li class="chip">TensorFlow</li>
+              <li class="chip">scikit-learn</li>
+              <li class="chip">Pandas</li>
+              <li class="chip">NumPy</li>
+              <li class="chip">Jupyter</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-label">Web</h3>
+            <ul class="skill-chips" role="list">
+              <li class="chip">Node.js</li>
+              <li class="chip">Express</li>
+              <li class="chip">REST APIs</li>
+              <li class="chip">Vanilla JS</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-label">Tooling</h3>
+            <ul class="skill-chips" role="list">
+              <li class="chip">Git</li>
+              <li class="chip">GitHub Actions</li>
+              <li class="chip">CI/CD</li>
+              <li class="chip">Linux</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── PROJECTS ──────────────────────────────────────────── -->
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-sub">Selected work</p>
+        </header>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-card-body">
+              <span class="project-tag">Deep Learning · Clinical AI</span>
+              <h3 class="project-title">VaDER</h3>
+              <p class="project-desc">Extended a variational deep embedding model for clustering multivariate patient time series with missing values — the kind of messy, incomplete data that clinical databases actually contain.</p>
+              <ul class="project-tech" role="list">
+                <li class="tech-badge">Python</li>
+                <li class="tech-badge">TensorFlow</li>
+                <li class="tech-badge">Time Series</li>
+              </ul>
+            </div>
+            <a href="https://github.com/maidilj/VaDER" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-body">
+              <span class="project-tag">Full-Stack · Social Impact</span>
+              <h3 class="project-title">Kilat</h3>
+              <p class="project-desc">A web application connecting residents with social services and community resources — built to reduce the friction between people who need help and the organisations that provide it.</p>
+              <ul class="project-tech" role="list">
+                <li class="tech-badge">JavaScript</li>
+                <li class="tech-badge">Node.js</li>
+                <li class="tech-badge">Express</li>
+              </ul>
+            </div>
+            <a href="https://github.com/maidilj/kilat-project" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-body">
+              <span class="project-tag">Applied AI · Coursework</span>
+              <h3 class="project-title">AI300 Projects</h3>
+              <p class="project-desc">Applied machine learning projects from SIT's AI programme — covering classification, regression, neural networks, and model evaluation across real-world datasets.</p>
+              <ul class="project-tech" role="list">
+                <li class="tech-badge">Python</li>
+                <li class="tech-badge">scikit-learn</li>
+                <li class="tech-badge">Jupyter</li>
+              </ul>
+            </div>
+            <a href="https://github.com/maidilj/AI300_Projects" target="_blank" rel="noopener noreferrer" class="project-link">View on GitHub →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── REPOS ─────────────────────────────────────────────── -->
+    <section id="repos" class="section section--alt">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">GitHub</h2>
+          <p class="section-sub">Recent public repositories</p>
+        </header>
+        <div class="repos-grid" id="repos-grid" aria-live="polite" aria-label="GitHub repositories"></div>
+      </div>
+    </section>
+
+    <!-- ─── CONTACT ───────────────────────────────────────────── -->
+    <section id="contact" class="section section--dark">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title section-title--light">Get in touch</h2>
+          <p class="section-sub section-sub--light">Open to roles in AI/ML, data science, and software engineering.</p>
+        </header>
+        <div class="contact-links">
+          <a href="mailto:2570457@sit.singaporetech.edu.sg" class="contact-link">
+            <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="16" height="12" rx="2"/>
+              <path d="M2 7l8 5 8-5"/>
+            </svg>
+            <div>
+              <span class="contact-link-label">Email</span>
+              <span class="contact-link-value">2570457@sit.singaporetech.edu.sg</span>
+            </div>
+          </a>
+          <a href="https://github.com/maidilj" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 2C5.58 2 2 5.58 2 10c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0018 10c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            <div>
+              <span class="contact-link-label">GitHub</span>
+              <span class="contact-link-value">github.com/maidilj</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/maidilj" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg aria-hidden="true" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M16 2H4a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2zM7 15H5V8h2v7zm-1-8.27c-.66 0-1.2-.54-1.2-1.21 0-.67.54-1.21 1.2-1.21.66 0 1.2.54 1.2 1.21 0 .67-.54 1.21-1.2 1.21zM15 15h-2v-3.27c0-1.97-2-1.82-2 0V15H9V8h2v1.13C11.94 7.48 15 7.37 15 10.86V15z"/>
+            </svg>
+            <div>
+              <span class="contact-link-label">LinkedIn</span>
+              <span class="contact-link-value">linkedin.com/in/maidilj</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Built by Aidil &nbsp;·&nbsp; <span id="footer-year"></span></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
